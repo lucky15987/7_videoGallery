@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #1A2E40;
+}
+
+.container {
+  width: 80%;
+  margin: 80px auto;
+}
+.container h1 {
+  padding: 60px 0;
+  color: #fff;
+  font: size 44px;
+  text-align: center;
+}
+.container .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .column {
+  flex-basis: 50%;
+  min-width: 250px;
+}
+.container .feature-img {
+  width: 83%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.container .play-btn {
+  width: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.container .small-img-row {
+  display: flex;
+  background: #efefef;
+  margin: 20px 0;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+}
+.container .small-img-row p {
+  margin: auto;
+  color: #707070;
+  line-height: 22px;
+  font-size: 15px;
+}
+.container .small-img {
+  position: relative;
+}
+.container .small-img .small-img img {
+  width: 100%;
+}
+.container .video-player {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.container .video-player .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+.container video:focus {
+  outline: none;
+}/*# sourceMappingURL=main.css.map */

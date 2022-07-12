@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - Video Gallery</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Gallery</h1>
+        <div class="row">
+            <div class="column">
+                <div class="feature-img">
+                    <img src="./assets/images/pic1.png" alt="sport girl posing" width="100%">
+                    <img class="play-btn" src="./assets/images/play.png" alt="play button">
+                </div>
+            </div>
+            <div class="column">
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="./assets/images/pic2.png" alt="girl in dress posing">
+                        <img class="play-btn" src="./assets/images/play.png" alt="play button">                           
+                    </div>  
+                    <p>Video Description</p>                  
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="./assets/images/pic3.png" alt="girl in dress posing">
+                        <img class="play-btn" src="./assets/images/play.png" alt="play button">                        
+                    </div>
+                    <p>Video Description</p>                       
+                </div>
+                <div class="small-img-row">
+                    <div class="small-img">
+                        <img src="./assets/images/pic4.png" alt="girl in dress posing">
+                        <img class="play-btn" src="./assets/images/play.png" alt="play button">                        
+                    </div>
+                    <p>Video Description</p>                     
+                </div>
+                
+                <div class="video-player" id="videoPlayer">
+                    <video src="./assets/media/video.mp4" width="100%" controls autoplay id="myvideo"></video>
+                    <img class="close-btn" src="./assets/images/close.png" alt="close button">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
