@@ -21,33 +21,35 @@
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src="./assets/images/pic2.png" alt="girl in dress posing">
-                        <img class="play-btn" src="./assets/images/play.png" alt="play button" onclick="playVideo('./assets/media/production ID_3819342.mp4')">                           
+                        <img class="play-btn" src="./assets/images/play.png" alt="play button" onclick="playVideo('./assets/media/vid2.mp4')">                           
                     </div>  
                     <p>Video Description</p>                  
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src="./assets/images/pic3.png" alt="girl in dress posing">
-                        <img class="play-btn" src="./assets/images/play.png" alt="play button" onclick="playVideo('./assets/media/production ID_4465352.mp4')">                        
+                        <img class="play-btn" src="./assets/images/play.png" alt="play button" onclick="playVideo('./assets/media/vid3.mp4')">                        
                     </div>
                     <p>Video Description</p>                       
                 </div>
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src="./assets/images/pic4.png" alt="man with glasses">
-                        <img class="play-btn" src="./assets/images/play.png" alt="play button" onclick="playVideo('./assets/media/Man Texting On The Street.mp4')">                        
+                        <img class="play-btn" src="./assets/images/play.png" alt="play button" onclick="playVideo('./assets/media/vid4.mp4')">                        
                     </div>
                     <p>Video Description</p>                     
                 </div>
                 
                 <div class="video-player" id="videoPlayer">
-                    <video src="./assets/media/video.mp4" width="100%" controls autoplay id="myVideo"></video>
+                    <video width="100%" controls autoplay id="myVideo">
+                        <source src="/assets/media/video.mp4" type="video/mp4">
+                    </video>
                     <img class="close-btn" id="close-btn" src="./assets/images/close.png" alt="close button">
                 </div>
                 
             </div>
         </div>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>    
 </body>
 </html>
